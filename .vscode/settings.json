@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "robot.h": "c",
+        "referee_task.h": "c",
+        "user_lib.h": "c",
+        "time.h": "c",
+        "buzzer.h": "c",
+        "mpu6500.h": "c",
+        "chassis.h": "c",
+        "mpu6500driver.h": "c",
+        "crc8.h": "c",
+        "gimbal.h": "c",
+        "calibrate.h": "c",
+        "robot_def.h": "c",
+        "rm_referee.h": "c",
+        "dm_motor.h": "c",
+        "custom_drv.h": "c",
+        "crc_ref.h": "c",
+        "rmd_motor.h": "c"
+    },
+    "cmake.sourceDirectory": "D:/robotmaster/engineer_code/2025 工程机器人 25.4.11湖大移植新版/Drivers/CMSIS/DSP/Source/QuaternionMathFunctions"
+}

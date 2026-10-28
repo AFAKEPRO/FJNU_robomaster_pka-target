@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" IsRTTPlus="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="Cortex-M4" Nickname="" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\robotmaster\target_vehicle_code\target_vehicle_new_20260312\MDK-ARM\Hero_Chassis\Hero_Chassis.elf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+            <Trigger>
+                <Options Level="0" Symbol="Ref" On="0" Auto="0" Rise="0" Fall="0" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="Ref" Address="0x2000897C" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-200" YMaxSampled="0" YAvgSampled="-127.984" Offset="4" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="100" MaxValue="-2147483648" File="D:\robotmaster\target_vehicle_code\target_vehicle_new_20260312\MDK-ARM/../User/Modules/algorithm/controller.h" DrawStyle="0" NameWithParents="DEBUG_CHASSIS.motor_controller.speed_PID.Ref" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Measure" Address="0x2000894C" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-197" YMaxSampled="37.8629" YAvgSampled="-34.3356" Offset="8" ShowInGraph="1" YOffset="0" IsAutoConfig="0" YResolution="100" MaxValue="-2147483648" File="D:\robotmaster\target_vehicle_code\target_vehicle_new_20260312\MDK-ARM/../User/Modules/algorithm/controller.h" DrawStyle="0" NameWithParents="DEBUG_CHASSIS.motor_controller.speed_PID.Measure" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

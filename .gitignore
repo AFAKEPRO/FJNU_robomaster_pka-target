@@ -1,0 +1,27 @@
+# Keil build outputs
+MDK-ARM/Hero_Chassis/
+MDK-ARM/*.uvoptx
+MDK-ARM/**/*.uvguix.*
+
+# Debug and log files
+*.log
+MDK-ARM/.vscode/
+.vscode/*.log
+Chassis_Ozone.jdebug.user
+
+# Compiler / linker products
+*.hex
+*.elf
+*.axf
+*.map
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.sct
+*.build_log.htm
+
+# OS/editor
+.DS_Store
+Thumbs.db

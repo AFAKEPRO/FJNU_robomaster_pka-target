@@ -1,0 +1,4600 @@
+[
+    {
+        "directory": "d:/HalProject/LE/MDK-ARM",
+        "file": "startup_stm32f427xx.s",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "startup_stm32f427xx.s",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/MDK-ARM/startup_stm32f427xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/main.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/main.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/main.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/gpio.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/freertos.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/freertos.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/freertos.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/adc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/can.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/crc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/dma.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/rng.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/spi.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/tim.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/usart.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_it.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/system_stm32f4xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/can",
+        "file": "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/can/bsp_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/dwt",
+        "file": "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usart",
+        "file": "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usart/bsp_usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/pwm",
+        "file": "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/flash",
+        "file": "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/flash/bsp_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/gpio",
+        "file": "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/spi",
+        "file": "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/spi/bsp_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usb",
+        "file": "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usb/bsp_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/message_center",
+        "file": "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/message_center/message_center.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/crc_ref.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_UI.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/rm_referee.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/crc8.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/arm_math",
+        "file": "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/daemon",
+        "file": "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/daemon/daemon.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dji_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dm_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/user_lib.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/buzzer",
+        "file": "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/buzzer/buzzer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/kalman_filter.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/controller.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/unitree_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/remote_control",
+        "file": "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/remote_control/remote_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_drv.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/airpump",
+        "file": "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/airpump/airpump.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/rmd_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/MG996",
+        "file": "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/MG996/MG996.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_task.h",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_task.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/chassis",
+        "file": "d:/HalProject/LE/User/App/chassis/chassis.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/chassis/chassis.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/chassis/chassis.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/motor_task",
+        "file": "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/motor_task/motor_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot_cmd",
+        "file": "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot_cmd/robot_cmd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/calibrate",
+        "file": "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/calibrate/calibrate.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robotarm",
+        "file": "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robotarm/robotarm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_def.h",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_def.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_def.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usb_device.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_desc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/Target",
+        "file": "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+        "arguments": [
+            "C:/Keil_v5/UV4/UV4.exe/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/MDK-ARM",
+        "file": "startup_stm32f427xx.s",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "startup_stm32f427xx.s",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/MDK-ARM/startup_stm32f427xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/main.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/main.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/main.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/freertos.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/freertos.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/freertos.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/crc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/dma.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/rng.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/usart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_it.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/system_stm32f4xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/can",
+        "file": "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/can/bsp_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/dwt",
+        "file": "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usart",
+        "file": "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usart/bsp_usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/pwm",
+        "file": "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/flash",
+        "file": "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/flash/bsp_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/gpio",
+        "file": "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/spi",
+        "file": "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/spi/bsp_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usb",
+        "file": "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usb/bsp_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/message_center",
+        "file": "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/message_center/message_center.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/crc_ref.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_UI.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/rm_referee.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/crc8.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/arm_math",
+        "file": "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/daemon",
+        "file": "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/daemon/daemon.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dji_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dm_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/user_lib.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/buzzer",
+        "file": "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/buzzer/buzzer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/kalman_filter.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/controller.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/unitree_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/remote_control",
+        "file": "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/remote_control/remote_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_drv.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/airpump",
+        "file": "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/airpump/airpump.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/rmd_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/MG996",
+        "file": "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/MG996/MG996.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_task.h",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_task.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/chassis",
+        "file": "d:/HalProject/LE/User/App/chassis/chassis.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/chassis/chassis.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/chassis/chassis.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/motor_task",
+        "file": "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/motor_task/motor_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot_cmd",
+        "file": "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot_cmd/robot_cmd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/calibrate",
+        "file": "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/calibrate/calibrate.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robotarm",
+        "file": "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robotarm/robotarm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_def.h",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_def.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_def.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usb_device.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_desc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/Target",
+        "file": "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/MDK-ARM",
+        "file": "startup_stm32f427xx.s",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "startup_stm32f427xx.s",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/MDK-ARM/startup_stm32f427xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/main.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/main.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/main.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/freertos.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/freertos.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/freertos.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/crc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/dma.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/rng.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/usart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_it.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/system_stm32f4xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/can",
+        "file": "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/can/bsp_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/dwt",
+        "file": "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usart",
+        "file": "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usart/bsp_usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/pwm",
+        "file": "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/flash",
+        "file": "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/flash/bsp_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/gpio",
+        "file": "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/spi",
+        "file": "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/spi/bsp_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usb",
+        "file": "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usb/bsp_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/message_center",
+        "file": "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/message_center/message_center.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/crc_ref.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_UI.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/rm_referee.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/crc8.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/arm_math",
+        "file": "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/daemon",
+        "file": "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/daemon/daemon.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dji_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dm_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/user_lib.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/buzzer",
+        "file": "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/buzzer/buzzer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/kalman_filter.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/controller.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/unitree_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/remote_control",
+        "file": "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/remote_control/remote_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_drv.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/airpump",
+        "file": "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/airpump/airpump.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/rmd_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/MG996",
+        "file": "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/MG996/MG996.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/arm_math",
+        "file": "d:/HalProject/LE/User/Modules/arm_math/Custom_arm_math.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/arm_math/Custom_arm_math.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/arm_math/Custom_arm_math.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_task.h",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_task.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/chassis",
+        "file": "d:/HalProject/LE/User/App/chassis/chassis.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/chassis/chassis.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/chassis/chassis.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/motor_task",
+        "file": "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/motor_task/motor_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot_cmd",
+        "file": "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot_cmd/robot_cmd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/calibrate",
+        "file": "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/calibrate/calibrate.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robotarm",
+        "file": "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robotarm/robotarm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_def.h",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_def.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_def.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usb_device.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_desc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/Target",
+        "file": "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/MDK-ARM",
+        "file": "startup_stm32f427xx.s",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "startup_stm32f427xx.s",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/MDK-ARM/startup_stm32f427xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/main.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/main.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/main.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/freertos.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/freertos.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/freertos.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/crc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/dma.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/rng.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/usart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_it.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_it.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_msp.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/stm32f4xx_hal_timebase_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src",
+        "file": "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Core/Src",
+        "file": "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Core/Src/system_stm32f4xx.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Core/Src/system_stm32f4xx.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/list.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/queue.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/tasks.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/timers.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+        "file": "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/can",
+        "file": "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/can/bsp_can.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/can/bsp_can.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/dwt",
+        "file": "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/dwt/bsp_dwt.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usart",
+        "file": "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usart/bsp_usart.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usart/bsp_usart.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/pwm",
+        "file": "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/pwm/bsp_pwm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/flash",
+        "file": "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/flash/bsp_flash.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/flash/bsp_flash.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/gpio",
+        "file": "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/gpio/bsp_gpio.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/spi",
+        "file": "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/spi/bsp_spi.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/spi/bsp_spi.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Bsp/usb",
+        "file": "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Bsp/usb/bsp_usb.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Bsp/usb/bsp_usb.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/message_center",
+        "file": "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/message_center/message_center.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/message_center/message_center.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/crc_ref.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/crc_ref.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_UI.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_UI.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/rm_referee.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/rm_referee.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/referee",
+        "file": "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/referee/referee_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/referee/referee_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/crc8.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/crc8.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/arm_math",
+        "file": "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.lib",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/arm_math/arm_cortexM4lf_math.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/daemon",
+        "file": "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/daemon/daemon.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/daemon/daemon.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dji_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dji_motor/dji_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/dm_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/dm_motor/dm_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/user_lib.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/user_lib.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/buzzer",
+        "file": "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/buzzer/buzzer.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/buzzer/buzzer.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/imu_temperature.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/mpu6500",
+        "file": "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/mpu6500/mpu6500driver.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/kalman_filter.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/kalman_filter.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/MahonyAHRS.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/QuaternionEKF.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/algorithm",
+        "file": "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/algorithm/controller.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/algorithm/controller.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/unitree_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/unitree_motor/unitree_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/remote_control",
+        "file": "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/remote_control/remote_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/remote_control/remote_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_control.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_control.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/custom_control",
+        "file": "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/custom_control/custom_drv.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/custom_control/custom_drv.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/airpump",
+        "file": "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/airpump/airpump.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/airpump/airpump.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/rmd_motor",
+        "file": "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/rmd_motor/rmd_motor.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/motor/MG996",
+        "file": "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/motor/MG996/MG996.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/motor/MG996/MG996.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/Modules/arm_math",
+        "file": "d:/HalProject/LE/User/Modules/arm_math/Custom_arm_math.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/Modules/arm_math/Custom_arm_math.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/Modules/arm_math/Custom_arm_math.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_task.h",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_task.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/chassis",
+        "file": "d:/HalProject/LE/User/App/chassis/chassis.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/chassis/chassis.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/chassis/chassis.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/motor_task",
+        "file": "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/motor_task/motor_task.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/motor_task/motor_task.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot_cmd",
+        "file": "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot_cmd/robot_cmd.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot_cmd/robot_cmd.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/calibrate",
+        "file": "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/calibrate/calibrate.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/calibrate/calibrate.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robotarm",
+        "file": "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robotarm/robotarm.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robotarm/robotarm.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/User/App/robot",
+        "file": "d:/HalProject/LE/User/App/robot/robot_def.h",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/User/App/robot/robot_def.h",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/User/App/robot/robot_def.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usb_device.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usb_device.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_desc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_desc.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/App",
+        "file": "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/App/usbd_cdc_if.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/USB_DEVICE/Target",
+        "file": "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/USB_DEVICE/Target/usbd_conf.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+        ]
+    },
+    {
+        "directory": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+        "file": "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+        "arguments": [
+            "C:/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+            "-o",
+            "build/Hero_Chassis/d:/HalProject/LE/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+        ]
+    }
+]
