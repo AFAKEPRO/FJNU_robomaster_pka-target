@@ -28,6 +28,8 @@
 #define ROTATE_SPEED_MID_RATE 2.5f
 #define ROTATE_SPEED_LOW_RATE 1.5f
 
+#define RC_STICK_DEADBAND 30 // 摇杆中心死区,防止零位偏差导致底盘缓慢漂移
+
 RC_ctrl_t *rc_data;
 INS_t *ins_data;
 cali_data_t *calibrate_data;
@@ -61,8 +63,15 @@ uint8_t debug_mode2;
 // 左拨杆上档允许旋转；右拨杆选择小陀螺速度档位。
 static void RemoteControlSet(void)
 {
-    chassis_cmd_send.vx     = 0.9f * (float)rc_data[TEMP].rc.rocker_r_;
-    chassis_cmd_send.vy     = 0.5f * (float)rc_data[TEMP].rc.rocker_r1;
+    int16_t stick_r  = rc_data[TEMP].rc.rocker_r_;
+    int16_t stick_r1 = rc_data[TEMP].rc.rocker_r1;
+    if (stick_r > -RC_STICK_DEADBAND && stick_r < RC_STICK_DEADBAND)
+        stick_r = 0;
+    if (stick_r1 > -RC_STICK_DEADBAND && stick_r1 < RC_STICK_DEADBAND)
+        stick_r1 = 0;
+
+    chassis_cmd_send.vx     = 0.9f * (float)stick_r;
+    chassis_cmd_send.vy     = 0.5f * (float)stick_r1;
     chassis_cmd_send.wz_add = 0.0f;
 
     if (switch_is_up(rc_data[TEMP].rc.switch_left))
