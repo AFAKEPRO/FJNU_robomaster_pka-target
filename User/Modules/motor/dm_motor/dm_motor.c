@@ -45,7 +45,9 @@ static void DMMotorSetCanID(DMMotorInstance *motor)
 
 static void DMMotorSetMode(DMMotor_Mode_e cmd, DMMotorInstance *motor)
 {
-    DMMotorSetCanID(motor);
+    // 使能/失能/清错/置零这类模式指令必须发到电机的基础CAN ID,
+    // 不能带V_MODE(+0x200)/P_V_MODE(+0x100)的偏移,否则电机会收不到
+    motor->motor_can_instace->txconf.StdId = motor->motor_can_instace->tx_id;
     CANSetDLC(motor->motor_can_instace, 8); // 模式指令始终发送8字节
     memset(motor->motor_can_instace->tx_buff, 0xff, 7);  // 发送电机指令的时候前面7bytes都是0xff
     motor->motor_can_instace->tx_buff[7] = (uint8_t)cmd; // 最后一位是命令id
@@ -61,11 +63,14 @@ static void DMMotorDecode(CANInstance *motor_can)
     DMMotorInstance *motor = (DMMotorInstance *)motor_can->id;
     DM_Motor_Measure_s *measure = &(motor->measure); // 将can实例中保存的id转换成电机实例的指针
 
+    motor->last_feedback_ms = (uint32_t)DWT_GetTimeline_ms(); // 喂通信看门狗
     if (motor->motor_daemon != NULL)
     {
         DaemonReload(motor->motor_daemon);
     }
 
+    measure->state = rxbuff[0];        // 高4位: 错误码;低4位: 控制模式
+    measure->id    = rxbuff[0] & 0x0F; // 当前控制模式,便于jscope观察
     measure->last_position = measure->position;
     tmp = (uint16_t)((rxbuff[1] << 8) | rxbuff[2]);
     position_raw = uint_to_float(tmp, DM_P_MIN, DM_P_MAX, 16);
@@ -89,14 +94,39 @@ static void DMMotorDecode(CANInstance *motor_can)
 		
 }
 
+/* 清零速度环状态,防止停止/离线期间积分饱和,重新使能时输出突跳 */
+static void DMMotorResetController(DMMotorInstance *motor)
+{
+    Motor_Controller_s *c = &motor->motor_controller;
+    c->pid_ref             = 0.0f;
+    c->speed_PID.Pout      = 0.0f;
+    c->speed_PID.Iout      = 0.0f;
+    c->speed_PID.Dout      = 0.0f;
+    c->speed_PID.ITerm     = 0.0f;
+    c->speed_PID.Output    = 0.0f;
+    c->speed_PID.Last_Output = 0.0f;
+    c->speed_PID.Last_Dout   = 0.0f;
+    c->speed_PID.Last_ITerm  = 0.0f;
+    c->speed_PID.Err         = 0.0f;
+    c->speed_PID.Last_Err    = 0.0f;
+    c->speed_PID.Last_Measure = 0.0f;
+}
+
+uint8_t DMMotorIsOnline(DMMotorInstance *motor)
+{
+    // last_feedback_ms为0表示还没收到过反馈(上电后尚未通信),视为离线
+    return motor->last_feedback_ms != 0 &&
+           (DWT_GetTimeline_ms() - (float)motor->last_feedback_ms) <= (float)DM_FEEDBACK_TIMEOUT_MS;
+}
+
 static void DMMotorLostCallback(void *motor_ptr)
 {
     DMMotorInstance *motor = (DMMotorInstance *)motor_ptr;
-    if (motor == NULL)
-        return;
-    DMMotorSetMode(DM_CMD_RESET_MODE, motor);
-    DMMotorSetMode(DM_CMD_CLEAR_ERROR, motor);
-    DMMotorSetMode(DM_CMD_MOTOR_MODE, motor);
+    if (motor == NULL || motor->stop_flag == MOTOR_STOP)
+        return; // 已经失能,不重复刷CAN
+    // 反馈丢失时直接失能,不能在没有反馈的情况下继续给力矩
+    DMMotorStop(motor);
+    DMMotorSetMode(DM_CMD_CLEAR_ERROR, motor); // 清掉可能的过热/过流错误,便于恢复后重新使能
 }
 void DMMotorCaliEncoder(DMMotorInstance *motor)
 {
@@ -160,6 +190,7 @@ void DMMotorSetRef(DMMotorInstance *motor, float ref)
 void DMMotorEnable(DMMotorInstance *motor)
 {
     motor->stop_flag = MOTOR_ENALBED;
+    DMMotorResetController(motor); // 清掉停止期间残留的积分和给定
 //    DMMotorSetMode(DM_CMD_RESET_MODE, motor);
 //	DMMotorSetMode(DM_CMD_CLEAR_ERROR, motor);
 	DMMotorSetMode(DM_CMD_MOTOR_MODE, motor);
@@ -168,6 +199,7 @@ void DMMotorEnable(DMMotorInstance *motor)
 void DMMotorStop(DMMotorInstance *motor)//不使用使能模式是因为需要收到反馈
 {
     motor->stop_flag = MOTOR_STOP;
+	DMMotorResetController(motor); // 清掉给定,防止停止期间速度环积分/重启时力矩突跳
 	DMMotorSetMode(DM_CMD_RESET_MODE, motor);
 	//DMMotorSetMode(DM_CMD_CLEAR_ERROR, motor);
     //DMMotorSetMode(DM_CMD_RESET_MODE, motor);
@@ -189,8 +221,11 @@ void DMMotorOuterLoop(DMMotorInstance *motor, Closeloop_Type_e type)
 
 void DMMotorSetVelocity(DMMotorInstance *motor,float v_set)
 {
+   LIMIT_MIN_MAX(v_set, DM_V_MIN, DM_V_MAX); // 限幅,防止给定超出电机量程
    motor->v_set   = v_set;
-   if (motor->workmode == V_MODE)
+   // V_MODE: 速度给定直接交给电机内部速度环
+   // MIT_MODE: 速度给定作为MCU软件速度环的ref, 由速度环算出力矩后走MIT帧下发
+   if (motor->workmode == V_MODE || motor->workmode == MIT_MODE)
        DMMotorSetRef(motor,v_set);
 }
 
@@ -326,6 +361,18 @@ void DMMotorControl(void)
             case MIT_MODE:
             {
                 float torque_cmd = pid_ref;
+                // 保护: 通信丢失/电机报错/过温时输出零力矩,并清速度环状态防止积分饱和
+                // state高4位为错误码: 0失能 1使能, 8~E为过压/欠压/过温/过流/编码器等错误
+                if (!DMMotorIsOnline(motor) || (measure->state >> 4) >= 8 ||
+                    measure->T_Mos > DM_TEMP_LIMIT || measure->T_Rotor > DM_TEMP_LIMIT)
+                {
+                    torque_cmd = 0.0f;
+                    DMMotorResetController(motor);
+                }
+                else if (motor->stop_flag == MOTOR_STOP)
+                {
+                    torque_cmd = 0.0f;
+                }
                 LIMIT_MIN_MAX(torque_cmd, DM_T_MIN, DM_T_MAX);
 
                 motor_send_mailbox.position_des = float_to_uint(0, DM_P_MIN, DM_P_MAX, 16);

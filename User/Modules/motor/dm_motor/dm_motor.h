@@ -8,12 +8,18 @@
 
 #define DM_MOTOR_CNT 3
 
-#define DM_P_MIN  (-6.28f)
-#define DM_P_MAX  6.28f
+/* G6220 运控(MIT)模式量程,需与DM调试工具里的 P_MAX/VMAX/TMAX 保持一致
+ * (6220: 位置±12.5rad, 速度±45rad/s, 力矩±18N*m) */
+#define DM_P_MIN  (-12.5f)
+#define DM_P_MAX  12.5f
 #define DM_V_MIN  (-45.0f)
 #define DM_V_MAX  45.0f
 #define DM_T_MIN  (-18.0f)
 #define DM_T_MAX   18.0f
+
+/* 保护阈值 */
+#define DM_FEEDBACK_TIMEOUT_MS 100    // 超过该时间没收到反馈判离线,输出零力矩并失能
+#define DM_TEMP_LIMIT          90.0f  // MOS/转子温度超过该值(℃)输出零力矩
 
 /* 滤波系数设置为1的时候即关闭滤波 */
 #define DM_POS_SMOOTH_COEF 0.85f
@@ -68,6 +74,7 @@ typedef struct
     DM_WORK_MODE workmode;
     DaemonInstance* motor_daemon;
     uint32_t lost_cnt;
+    uint32_t last_feedback_ms; // 最近一次收到反馈的时刻(ms),用于通信看门狗
 
     //位置速度模式特供
     float pos_set;
@@ -85,6 +92,9 @@ typedef enum
 DMMotorInstance *DMMotorInit(DMMotor_Init_Config_s *config);
 
 void DMMotorSetRef(DMMotorInstance *motor, float ref);
+
+/* 电机是否在线(最近 DM_FEEDBACK_TIMEOUT_MS 内收到过反馈) */
+uint8_t DMMotorIsOnline(DMMotorInstance *motor);
 
 void DMMotorSetVelocity(DMMotorInstance *motor,float v_set);
 

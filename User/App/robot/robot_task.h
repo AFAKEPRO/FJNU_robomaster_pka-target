@@ -65,10 +65,8 @@ __attribute__((noreturn)) void StartMOTORTASK(void const *argument) {
 }
 
 __attribute__((noreturn)) void StartDAEMONTASK(void const *argument) {
-    static float daemon_dt;
-    static float daemon_start;
-
     for (;;) {
+        DaemonTask(); // 递减各模块看门狗计数,超时调用离线回调(电机/遥控器)
         osDelay(10);
     }
 }

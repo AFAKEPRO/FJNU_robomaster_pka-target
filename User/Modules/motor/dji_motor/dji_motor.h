@@ -27,6 +27,10 @@
 #define CURRENT_SMOOTH_COEF 0.9f     // ???????0.9
 #define ECD_ANGLE_COEF_DJI 0.043945f // (360/8192),??????????????????
 
+/* 保护阈值 */
+#define DJI_FEEDBACK_TIMEOUT_MS 100 // 超过该时间没收到反馈判离线,输出清零
+#define DJI_TEMP_LIMIT          90  // 电调温度超过该值(℃)输出清零
+
 /* DJI???CAN???????*/
 typedef struct
 {
@@ -61,6 +65,7 @@ typedef struct
 
 
     uint32_t feed_cnt;
+    uint32_t last_feedback_ms; // 最近一次收到反馈的时刻(ms),用于通信看门狗
     float dt;
 } DJIMotorInstance;
 

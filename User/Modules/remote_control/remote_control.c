@@ -1,4 +1,5 @@
 #include "bsp_usart.h"
+#include "bsp_dwt.h"
 #include "daemon.h"
 #include "remote_control.h"
 #include "stdlib.h"
@@ -125,7 +126,8 @@ static void sbus_to_rc(const uint8_t *sbus_buf) {
  *
  */
 static void RemoteControlRxCallback() {
-    //    DaemonReload(rc_daemon_instance);         // 先喂狗
+    if (rc_daemon_instance != NULL)
+        DaemonReload(rc_daemon_instance);      // 先喂狗
     sbus_to_rc(rc_usart_instance->recv_buff); // 进行协议解析
     rc_ctrl->rc_state = 1;
 }
@@ -135,20 +137,17 @@ static void RemoteControlRxCallback() {
  * @note  这个掉线判断是根据裁判系统返回值进行，考虑如何处理掉线问题
  */
 static void RCLostCallback(void *id) {
-    // if(rc_referee_recv->remote_data.online_state == 1)
-    // {
-    // 	uint8_t temp[sizeof(RC_ctrl_t)] = {0};
-    // 	memcpy(&temp[6], &rc_referee_recv->remote_data, 10);
-    // 	sbus_to_rc((const uint8_t*)temp);
-    // 	rc_ctrl->rc_state = 2;
-    // }
-    // else
-    // {
-    memset(rc_ctrl, 0, sizeof(rc_ctrl)); // 清空遥控器数据
-    USARTServiceInit(rc_usart_instance); // 尝试重新启动接收
-    rc_ctrl->rc_state = 0;
-    // 	LOGWARNING("[rc] remote control lost");
-    // }
+    static float last_restart_ms;
+    float now = DWT_GetTimeline_ms();
+
+    memset(rc_ctrl, 0, sizeof(rc_ctrl)); // 清空遥控器数据,robot_cmd会因此切到无力模式
+    rc_ctrl->rc_state = 0;               // 标记离线
+
+    // 每秒最多重启一次接收,避免看门狗每次超时都打断DMA
+    if (now - last_restart_ms > 1000.0f) {
+        last_restart_ms = now;
+        USARTServiceInit(rc_usart_instance);
+    }
 }
 
 RC_ctrl_t *RemoteControlInit(UART_HandleTypeDef *rc_usart_handle) {
@@ -159,12 +158,14 @@ RC_ctrl_t *RemoteControlInit(UART_HandleTypeDef *rc_usart_handle) {
     rc_usart_instance    = USARTRegister(&conf);
 
     // 进行守护进程的注册,用于定时检查遥控器是否正常工作
-    //    Daemon_Init_Config_s daemon_conf = {
-    //        .reload_count = 10, //
-    //        100ms未收到数据视为离线,遥控器的接收频率实际上是1000/14Hz(大约70Hz) .callback =
-    //        RCLostCallback, .owner_id = NULL, // 只有1个遥控器,不需要owner_id
-    //    };
-    //    rc_daemon_instance = DaemonRegister(&daemon_conf);
+    // DaemonTask每10ms调用一次,reload_count=10即约100ms未收到数据视为离线
+    // 遥控器的接收频率实际上是1000/14Hz(大约70Hz)
+    Daemon_Init_Config_s daemon_conf = {
+        .reload_count = 10,
+        .callback     = RCLostCallback,
+        .owner_id     = NULL, // 只有1个遥控器,不需要owner_id
+    };
+    rc_daemon_instance = DaemonRegister(&daemon_conf);
     // rc_referee_recv = GimbalRefereeTaskInit(&huart1);
     rc_init_flag = 1;
     return rc_ctrl;

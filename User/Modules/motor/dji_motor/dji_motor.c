@@ -153,6 +153,7 @@ static void DecodeDJIMotor(CANInstance *_instance) {
     DJI_Motor_Measure_s *measure = &motor->measure; // measure???????,????????С??濪??
 
                                                     //    DaemonReload(motor->daemon);
+    motor->last_feedback_ms = (uint32_t)DWT_GetTimeline_ms(); // 喂通信看门狗
     motor->dt = DWT_GetDeltaT(&motor->feed_cnt);
 
     // ?????????????????????????,????????????????????????????
@@ -269,6 +270,32 @@ void DJIMotorCali(DJIMotorInstance *motor) { motor->stop_flag = MOTOR_CALI; }
 // }
 float a;
 float debug_num;
+
+/* 清零PID状态,防止反馈丢失/堵转期间积分饱和,恢复时输出突跳 */
+static void DJIMotorResetController(DJIMotorInstance *motor) {
+    Motor_Controller_s *c = &motor->motor_controller;
+    c->speed_PID.Pout        = 0.0f;
+    c->speed_PID.Iout        = 0.0f;
+    c->speed_PID.Dout        = 0.0f;
+    c->speed_PID.ITerm       = 0.0f;
+    c->speed_PID.Output      = 0.0f;
+    c->speed_PID.Last_Output = 0.0f;
+    c->speed_PID.Last_Dout   = 0.0f;
+    c->speed_PID.Last_ITerm  = 0.0f;
+    c->speed_PID.Err         = 0.0f;
+    c->speed_PID.Last_Err    = 0.0f;
+    c->current_PID.Pout      = 0.0f;
+    c->current_PID.Iout      = 0.0f;
+    c->current_PID.Dout      = 0.0f;
+    c->current_PID.ITerm     = 0.0f;
+    c->current_PID.Output    = 0.0f;
+    c->current_PID.Last_Output = 0.0f;
+    c->current_PID.Last_Dout   = 0.0f;
+    c->current_PID.Last_ITerm  = 0.0f;
+    c->current_PID.Err         = 0.0f;
+    c->current_PID.Last_Err    = 0.0f;
+}
+
 // ????е?????????????PID,??????????
 void DJIMotorControl() {
     // ????????????????????С???????,??????????????
@@ -287,6 +314,20 @@ void DJIMotorControl() {
         motor_controller = &motor->motor_controller;
         measure          = &motor->measure;
         pid_ref = motor_controller->pid_ref; // ?????趨?,???motor_controller->pid_ref?????????б????
+
+        // 保护: 反馈丢失(含上电后从未收到)或过温时输出0,不跑PID
+        // 否则速度环在无反馈时会把给定当成误差,积分饱和后开环输出满电流
+        if (motor->last_feedback_ms == 0 ||
+            (DWT_GetTimeline_ms() - (float)motor->last_feedback_ms) > (float)DJI_FEEDBACK_TIMEOUT_MS ||
+            measure->temperature > DJI_TEMP_LIMIT) {
+            group                                         = motor->sender_group;
+            num                                           = motor->message_num;
+            sender_assignment[group].tx_buff[2 * num]     = 0;
+            sender_assignment[group].tx_buff[2 * num + 1] = 0;
+            DJIMotorResetController(motor);
+            continue;
+        }
+
         if (motor->stop_flag == MOTOR_CALI) {
             group                                         = motor->sender_group;
             num                                           = motor->message_num;
