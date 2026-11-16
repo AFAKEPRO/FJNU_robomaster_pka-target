@@ -37,7 +37,6 @@
 // #include "feed_forward.h"
 
 void MotorControlTask(void) {
-    static uint8_t cnt = 0; // 设定不同电机的任务频率
     //	FeedForwardControl();
     DJIMotorControl();
     // RMDMotorControl();
@@ -46,12 +45,5 @@ void MotorControlTask(void) {
     // UnitreeMotorControl();
 
     //	UnitreeControl();
-    if (cnt % 2 == 0)
-	{
-		// RMDMotorControl();	
-        DMMotorControl();
-	}		// 500hz
-    //	if(cnt%10==0) //100hz
-
-    cnt++;
+    DMMotorControl(); // 1kHz,和电机任务同频,控制延迟从2ms降到1ms
 }

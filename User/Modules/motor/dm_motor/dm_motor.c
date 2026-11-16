@@ -273,6 +273,10 @@ void DMMotorSetFeedforwardFlag(DMMotorInstance *motor, uint8_t flag)
 }
 
 int ao;
+/* 供J-Scope观测 */
+float dm_debug_torque_limit;   // 当前力矩上限(过温时会降额)
+float dm_debug_torque_applied; // 实际下发的力矩指令
+
 void DMMotorControl(void)
 {
 	float pid_measure, pid_ref;             // 电机PID测量值和设定值
@@ -313,7 +317,8 @@ void DMMotorControl(void)
             if (motor_setting->feedback_reverse_flag == FEEDBACK_DIRECTION_REVERSE)
                 pid_ref *= -1;
             LIMIT_MIN_MAX(pid_ref, DM_V_MIN, DM_V_MAX);
-            if (motor->stop_flag == MOTOR_STOP)
+            // 失能或通信丢失时给0速度,避免电机继续按残留给定转
+            if (motor->stop_flag == MOTOR_STOP || !DMMotorIsOnline(motor))
                 pid_ref = 0.0f;
 
             DMMotorSetCanID(motor);
@@ -361,10 +366,29 @@ void DMMotorControl(void)
             case MIT_MODE:
             {
                 float torque_cmd = pid_ref;
+                float torque_limit = DM_T_MAX;
+
+                // 过温分级降额:从DM_TEMP_DERATE_START到DM_TEMP_LIMIT线性降低力矩上限.
+                // 只在阈值处硬切/恢复会让温度在阈值附近时力矩高频通断,速度曲线表现为剧烈噪声
+                {
+                    float temp_max = measure->T_Mos > measure->T_Rotor ? measure->T_Mos : measure->T_Rotor;
+                    if (temp_max > DM_TEMP_DERATE_START)
+                    {
+                        float k = (DM_TEMP_LIMIT - temp_max) / (DM_TEMP_LIMIT - DM_TEMP_DERATE_START);
+                        if (k < 0.0f) k = 0.0f;
+                        torque_limit = DM_T_MAX * k;
+                    }
+                }
+
+                // 过温保护带迟滞:超过DM_TEMP_LIMIT切断,降到DM_TEMP_RESUME以下才恢复
+                if (measure->T_Mos > DM_TEMP_LIMIT || measure->T_Rotor > DM_TEMP_LIMIT)
+                    motor->overtemp_flag = 1;
+                else if (measure->T_Mos < DM_TEMP_RESUME && measure->T_Rotor < DM_TEMP_RESUME)
+                    motor->overtemp_flag = 0;
+
                 // 保护: 通信丢失/电机报错/过温时输出零力矩,并清速度环状态防止积分饱和
                 // state高4位为错误码: 0失能 1使能, 8~E为过压/欠压/过温/过流/编码器等错误
-                if (!DMMotorIsOnline(motor) || (measure->state >> 4) >= 8 ||
-                    measure->T_Mos > DM_TEMP_LIMIT || measure->T_Rotor > DM_TEMP_LIMIT)
+                if (!DMMotorIsOnline(motor) || (measure->state >> 4) >= 8 || motor->overtemp_flag)
                 {
                     torque_cmd = 0.0f;
                     DMMotorResetController(motor);
@@ -373,7 +397,9 @@ void DMMotorControl(void)
                 {
                     torque_cmd = 0.0f;
                 }
-                LIMIT_MIN_MAX(torque_cmd, DM_T_MIN, DM_T_MAX);
+                LIMIT_MIN_MAX(torque_cmd, -torque_limit, torque_limit);
+                dm_debug_torque_limit   = torque_limit;
+                dm_debug_torque_applied = torque_cmd;
 
                 motor_send_mailbox.position_des = float_to_uint(0, DM_P_MIN, DM_P_MAX, 16);
 		        motor_send_mailbox.velocity_des = float_to_uint(0, DM_V_MIN, DM_V_MAX, 12);
